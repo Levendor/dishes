@@ -1,0 +1,42 @@
+.body {
+  padding: 1rem;
+  padding-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.textarea {
+	outline: none;
+	resize: none;
+  user-select: none;
+  font-size: 1.5rem;
+  overflow-wrap: normal;
+  text-align: center;
+  padding: 1rem;
+}
+
+.fieldset {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.1rem;
+}
+
+.radioset {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.radio {
+  margin-left: 1rem;
+}
+
+.button {
+  width: fit-content;
+  padding: 1rem;
+  margin: 0 auto;
+}

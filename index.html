@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dishes</title>
+  </head>
+  <body class="body">
+    <textarea class="textarea" id="output" rows="2" placeholder="Чего желаете?" readonly></textarea>
+    
+    <form class="form" id="dishesForm">
+      <fieldset class="fieldset">
+        <legend>БЛЮДА</legend>
+        <div class="radioset">
+          <label for="html">Суп</label>
+          <input class="radio" type="radio" id="soup" name="dishes" value="soup" checked>
+        </div>
+        <div class="radioset">
+          <label for="css">Гарнир</label>
+          <input class="radio" type="radio" id="garnish" name="dishes" value="garnish">
+        </div>
+        <div class="radioset">
+          <label for="javascript">Мясное блюдо</label>
+          <input class="radio" type="radio" id="meat" name="dishes" value="meat">
+        </div>
+        <div class="radioset">
+          <label for="html">Завтрак</label>
+          <input class="radio" type="radio" id="breakfast" name="dishes" value="breakfast">
+        </div>
+        <div class="radioset">
+          <label for="html">Салат</label>
+          <input class="radio" type="radio" id="salad" name="dishes" value="salad">
+        </div>
+      </fieldset>
+    </form>
+
+    <button id="button" class="button">Новое блюдо</button>
+  </body>
+  <script src="./script.js"></script>
+</html>
